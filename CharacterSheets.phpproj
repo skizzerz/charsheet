@@ -26,6 +26,156 @@
     <Compile Include=".gitignore" />
     <Compile Include=".htaccess" />
     <Compile Include=".travis.yml" />
+    <Compile Include="app\Plugin\DebugKit\Console\Command\BenchmarkShell.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Console\Command\WhitespaceShell.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Controller\Component\ToolbarComponent.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Controller\DebugKitAppController.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Controller\ToolbarAccessController.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Lib\DebugKitDebugger.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Lib\DebugMemory.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Lib\DebugPanel.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Lib\DebugTimer.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Lib\FireCake.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Lib\Log\Engine\DebugKitLog.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Lib\Panel\EnvironmentPanel.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Lib\Panel\HistoryPanel.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Lib\Panel\IncludePanel.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Lib\Panel\LogPanel.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Lib\Panel\RequestPanel.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Lib\Panel\SessionPanel.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Lib\Panel\SqlLogPanel.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Lib\Panel\TimerPanel.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Lib\Panel\VariablesPanel.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Model\Behavior\TimedBehavior.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Model\DebugKitAppModel.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Model\ToolbarAccess.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\AllDebugKitTest.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\AllDebugKitViewTest.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\AllDebugKitWithoutViewTest.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\AllTestsTest.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\Controller\Component\ToolbarComponentTest.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\DebugkitGroupTestCase.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\Lib\DebugKitDebuggerTest.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\Lib\DebugMemoryTest.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\Lib\DebugTimerTest.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\Lib\FireCakeTest.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\Lib\Panel\LogPanelTest.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\Lib\Panel\SqlLogPanelTest.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\Model\Behavior\TimedBehaviorTest.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\Model\ToolbarAccessTest.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\TestFireCake.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\View\Helper\FirePhpToolbarHelperTest.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\View\Helper\HtmlToolbarHelperTest.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\Case\View\Helper\ToolbarHelperTest.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\test_app\Controller\DebugKitTestController.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\test_app\Lib\Panel\TestPanel.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\Test\test_app\Plugin\DebugkitTestPlugin\Lib\Panel\PluginTestPanel.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\View\Helper\DebugTimerHelper.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\View\Helper\FirePhpToolbarHelper.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\View\Helper\HtmlToolbarHelper.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\View\Helper\SimpleGraphHelper.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\View\Helper\TidyHelper.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\Plugin\DebugKit\View\Helper\ToolbarHelper.php">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="build.properties" />
     <Compile Include="build.xml" />
     <Compile Include="CONTRIBUTING.md" />
@@ -1054,6 +1204,52 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app" />
+    <Folder Include="app\Plugin\DebugKit\" />
+    <Folder Include="app\Plugin\DebugKit\Console\" />
+    <Folder Include="app\Plugin\DebugKit\Console\Command\" />
+    <Folder Include="app\Plugin\DebugKit\Controller\" />
+    <Folder Include="app\Plugin\DebugKit\Controller\Component\" />
+    <Folder Include="app\Plugin\DebugKit\Lib\" />
+    <Folder Include="app\Plugin\DebugKit\Lib\Log\" />
+    <Folder Include="app\Plugin\DebugKit\Lib\Log\Engine\" />
+    <Folder Include="app\Plugin\DebugKit\Lib\Panel\" />
+    <Folder Include="app\Plugin\DebugKit\Locale\" />
+    <Folder Include="app\Plugin\DebugKit\Locale\eng\" />
+    <Folder Include="app\Plugin\DebugKit\Locale\eng\LC_MESSAGES\" />
+    <Folder Include="app\Plugin\DebugKit\Locale\fra\" />
+    <Folder Include="app\Plugin\DebugKit\Locale\fra\LC_MESSAGES\" />
+    <Folder Include="app\Plugin\DebugKit\Locale\spa\" />
+    <Folder Include="app\Plugin\DebugKit\Locale\spa\LC_MESSAGES\" />
+    <Folder Include="app\Plugin\DebugKit\Model\" />
+    <Folder Include="app\Plugin\DebugKit\Model\Behavior\" />
+    <Folder Include="app\Plugin\DebugKit\Test\" />
+    <Folder Include="app\Plugin\DebugKit\Test\Case\" />
+    <Folder Include="app\Plugin\DebugKit\Test\Case\Controller\" />
+    <Folder Include="app\Plugin\DebugKit\Test\Case\Controller\Component\" />
+    <Folder Include="app\Plugin\DebugKit\Test\Case\Lib\" />
+    <Folder Include="app\Plugin\DebugKit\Test\Case\Lib\Panel\" />
+    <Folder Include="app\Plugin\DebugKit\Test\Case\Model\" />
+    <Folder Include="app\Plugin\DebugKit\Test\Case\Model\Behavior\" />
+    <Folder Include="app\Plugin\DebugKit\Test\Case\View\" />
+    <Folder Include="app\Plugin\DebugKit\Test\Case\View\Helper\" />
+    <Folder Include="app\Plugin\DebugKit\Test\test_app\" />
+    <Folder Include="app\Plugin\DebugKit\Test\test_app\Controller\" />
+    <Folder Include="app\Plugin\DebugKit\Test\test_app\Lib\" />
+    <Folder Include="app\Plugin\DebugKit\Test\test_app\Lib\Panel\" />
+    <Folder Include="app\Plugin\DebugKit\Test\test_app\Plugin\" />
+    <Folder Include="app\Plugin\DebugKit\Test\test_app\Plugin\DebugkitTestPlugin\" />
+    <Folder Include="app\Plugin\DebugKit\Test\test_app\Plugin\DebugkitTestPlugin\Lib\" />
+    <Folder Include="app\Plugin\DebugKit\Test\test_app\Plugin\DebugkitTestPlugin\Lib\Panel\" />
+    <Folder Include="app\Plugin\DebugKit\Test\test_app\View\" />
+    <Folder Include="app\Plugin\DebugKit\Test\test_app\View\DebugKitTest\" />
+    <Folder Include="app\Plugin\DebugKit\View\" />
+    <Folder Include="app\Plugin\DebugKit\View\Elements\" />
+    <Folder Include="app\Plugin\DebugKit\View\Helper\" />
+    <Folder Include="app\Plugin\DebugKit\View\ToolbarAccess\" />
+    <Folder Include="app\Plugin\DebugKit\webroot\" />
+    <Folder Include="app\Plugin\DebugKit\webroot\css\" />
+    <Folder Include="app\Plugin\DebugKit\webroot\img\" />
+    <Folder Include="app\Plugin\DebugKit\webroot\js\" />
     <Folder Include="lib" />
     <Folder Include="plugins" />
     <Folder Include="vendors" />
@@ -1466,5 +1662,88 @@
     <Folder Include="lib\Cake\View\Errors" />
     <Folder Include="lib\Cake\View\Helper" />
     <Folder Include="lib\Cake\View\Scaffolds" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\Config\database.php">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\.gitignore">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\.jshintrc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\.travis.yml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\composer.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\Locale\debug_kit.pot">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\Locale\eng\LC_MESSAGES\debug_kit.po">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\Locale\fra\LC_MESSAGES\debug_kit.po">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\Locale\spa\LC_MESSAGES\debug_kit.po">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\Test\test_app\View\DebugKitTest\request_action_render.ctp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\View\Elements\debug_toolbar.ctp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\View\Elements\environment_panel.ctp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\View\Elements\history_panel.ctp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\View\Elements\include_panel.ctp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\View\Elements\log_panel.ctp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\View\Elements\request_panel.ctp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\View\Elements\session_panel.ctp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\View\Elements\sql_log_panel.ctp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\View\Elements\timer_panel.ctp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\View\Elements\variables_panel.ctp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\View\ToolbarAccess\history_state.ctp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\View\ToolbarAccess\sql_explain.ctp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\webroot\css\debug_toolbar.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\webroot\img\cake.icon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\webroot\js\jquery.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\Plugin\DebugKit\webroot\js\js_debug_toolbar.js">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
 </Project>

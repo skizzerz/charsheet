@@ -113,7 +113,7 @@
  * will override the automatic detection of full base URL and can be
  * useful when generating links from the CLI (e.g. sending emails)
  */
-	//Configure::write('App.fullBaseUrl', 'http://example.com');
+Configure::write('App.fullBaseUrl', 'http://localhost/charsheet');
 
 /**
  * Web path to the public images directory under webroot.
@@ -222,12 +222,12 @@
 /**
  * A random string used in security hashing methods.
  */
-	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi');
+	Configure::write('Security.salt', 'DSJHLLJK4r08as789dasklaksjldasdf435rasd');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
  */
-	Configure::write('Security.cipherSeed', '76859309657453542496749683645');
+	Configure::write('Security.cipherSeed', '37832789129839018843416');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
@@ -349,7 +349,7 @@
  *       Please check the comments in bootstrap.php for more info on the cache engines available
  *       and their settings.
  */
-$engine = 'File';
+$engine = 'Wincache';
 
 // In development mode, caches should expire quickly.
 $duration = '+999 days';
