@@ -26,6 +26,9 @@
     <Compile Include=".gitignore" />
     <Compile Include=".htaccess" />
     <Compile Include=".travis.yml" />
+    <Compile Include="app\Controller\HomeController.php">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="app\Plugin\DebugKit\Console\Command\BenchmarkShell.php">
       <SubType>Code</SubType>
     </Compile>
@@ -203,7 +206,6 @@
     <Compile Include="app\Console\Command\Task\empty" />
     <Compile Include="app\Console\Templates\empty" />
     <Compile Include="app\Controller\AppController.php" />
-    <Compile Include="app\Controller\PagesController.php" />
     <Compile Include="app\Controller\Component\empty" />
     <Compile Include="app\Lib\empty" />
     <Compile Include="app\Locale\eng\LC_MESSAGES\empty" />
@@ -237,7 +239,6 @@
     <Compile Include="app\View\Layouts\js\default.ctp" />
     <Compile Include="app\View\Layouts\rss\default.ctp" />
     <Compile Include="app\View\Layouts\xml\default.ctp" />
-    <Compile Include="app\View\Pages\home.ctp" />
     <Compile Include="app\View\Scaffolds\empty" />
     <Compile Include="app\webroot\.htaccess" />
     <Compile Include="app\webroot\favicon.ico" />
@@ -251,7 +252,6 @@
     <Compile Include="app\webroot\img\test-fail-icon.png" />
     <Compile Include="app\webroot\img\test-pass-icon.png" />
     <Compile Include="app\webroot\img\test-skip-icon.png" />
-    <Compile Include="app\webroot\js\empty" />
     <Compile Include="lib\Cake\basics.php" />
     <Compile Include="lib\Cake\bootstrap.php" />
     <Compile Include="lib\Cake\LICENSE.txt" />
@@ -1200,7 +1200,6 @@
     <Compile Include="lib\Cake\View\Scaffolds\index.ctp" />
     <Compile Include="lib\Cake\View\Scaffolds\view.ctp" />
     <Compile Include="plugins\empty" />
-    <Compile Include="vendors\empty" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app" />
@@ -1250,6 +1249,8 @@
     <Folder Include="app\Plugin\DebugKit\webroot\css\" />
     <Folder Include="app\Plugin\DebugKit\webroot\img\" />
     <Folder Include="app\Plugin\DebugKit\webroot\js\" />
+    <Folder Include="app\View\Home" />
+    <Folder Include="app\webroot\fonts\" />
     <Folder Include="lib" />
     <Folder Include="plugins" />
     <Folder Include="vendors" />
@@ -1294,7 +1295,6 @@
     <Folder Include="app\View\Errors" />
     <Folder Include="app\View\Helper" />
     <Folder Include="app\View\Layouts" />
-    <Folder Include="app\View\Pages" />
     <Folder Include="app\View\Scaffolds" />
     <Folder Include="app\View\Emails\html" />
     <Folder Include="app\View\Emails\text" />
@@ -1743,6 +1743,30 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="app\Plugin\DebugKit\webroot\js\js_debug_toolbar.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\View\Home\home.ctp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\webroot\css\bootstrap.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\webroot\fonts\glyphicons-halflings-regular.eot">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\webroot\fonts\glyphicons-halflings-regular.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\webroot\fonts\glyphicons-halflings-regular.ttf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\webroot\fonts\glyphicons-halflings-regular.woff">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\webroot\js\bootstrap.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\webroot\js\jquery-2.1.0.min.js">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
