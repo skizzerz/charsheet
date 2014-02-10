@@ -179,6 +179,9 @@
     <Compile Include="app\Plugin\DebugKit\View\Helper\ToolbarHelper.php">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="app\View\Helper\NavHelper.php">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="build.properties" />
     <Compile Include="build.xml" />
     <Compile Include="CONTRIBUTING.md" />
